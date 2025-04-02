@@ -1,0 +1,71 @@
+Este projeto é uma implementação simples de um jogo de xadrez feito em Python, com uma interface de terminal. 
+
+Ele permite que dois jogadores se enfrentem no jogo de xadrez diretamente pelo terminal, usando as regras tradicionais.
+
+Sobre o Projeto
+
+O jogo foi criado com o objetivo de praticar programação orientada a objetos em Python. 
+
+Ele simula um tabuleiro de xadrez 8x8 e permite que os jogadores movimentem suas peças conforme as regras do jogo. A implementação é bem simples e funciona diretamente no terminal, sem necessidade de bibliotecas externas, exceto o próprio Python.
+
+Funcionalidades
+
+Tabuleiro 8x8: O tabuleiro é exibido no terminal, com as peças posicionadas como no início de uma partida de xadrez.
+
+Movimentos das peças: A movimentação das peças, como o Rei e a Rainha, segue as regras tradicionais do jogo.
+
+Turnos alternados: O jogo alterna os turnos entre os jogadores, começando pelo jogador de peças brancas.
+
+Interação simples: O jogador insere os movimentos diretamente no terminal e o jogo os processa.
+
+Como Rodar o Jogo
+
+1. Clonar o Repositório
+2. 
+Primeiro, faça o clone deste repositório para a sua máquina:
+
+bash
+Copiar
+git clone https://github.com/gênesematheusdsl/xadrez-python.git
+cd xadrez-python
+
+2. Requisitos
+Certifique-se de ter o Python 3.x instalado. Para verificar se você tem o Python instalado, rode o seguinte comando:
+
+bash ( terminal )
+
+Copiar
+python --version  # ou python3 --version
+
+3. Rodando o Jogo
+Para jogar, basta rodar o arquivo principal. No terminal, digite:
+
+bash
+
+Copiar
+python3 main.py
+
+bash
+
+Copiar
+
+python3 main.py
+
+4. Como Jogar
+Assim que o jogo começar, o tabuleiro será mostrado no terminal. O jogador deverá inserir os movimentos das peças, como por exemplo:
+
+e2 para e4 (Movimentando a peça da posição e2 para e4).
+
+O jogo alterna entre os jogadores, começando pelo jogador com as peças brancas. Para sair a qualquer momento, basta digitar sair no terminal.
+
+Contribuindo
+
+Se você quiser contribuir para o projeto, fique à vontade para fazer um fork e enviar pull requests. Se encontrar algum erro ou quiser sugerir melhorias, crie uma issue para discutirmos.
+
+
+Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+
+
+
